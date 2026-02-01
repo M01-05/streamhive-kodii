@@ -1,0 +1,11 @@
+<addons>
+  <addon id="plugin.video.streamhive"
+         name="Mein Addon"
+         version="1.0.0"
+         provider-name="StreamHive">
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+      <provides>video</provides>
+    </extension>
+  </addon>
+</addons>
